@@ -12,6 +12,7 @@ import java.util.Scanner;
 //Description: The program will read a list of 5 letter words, take a word at random,
 // and have the user attempt to guess with matching letters equating to points.
 // It will keep track of words guessed and words chosen by the computer
+@SuppressWarnings("unused")
 public class Jotto {
     private static final int WORD_SIZE = 5;
     private static final boolean DEBUG = true;
