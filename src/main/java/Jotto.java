@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
@@ -68,7 +69,7 @@ public class Jotto {
         return currentWord;
     }
 
-    public ArrayList<String> getPlayWords() {
+    public ArrayList<String> getPlayedWords() {
         return playWords;
     }
 
@@ -86,4 +87,35 @@ public class Jotto {
     {
 
     }
+
+    public String showPlayedWords()
+    {
+        return "No words have been played.";
+    }
+
+    public ArrayList<String> getWordList()
+    {
+        return wordList;
+    }
+
+    public ArrayList<String> getPlayerGuesses()
+    {
+        return playGuesses;
+    }
+
+    public String getFilename()
+    {
+        return filename;
+    }
+
+    public int getScore()
+    {
+        return score;
+    }
+
+    public void setFilename(String filename)
+    {
+        this.filename = filename;
+    }
+
 }
