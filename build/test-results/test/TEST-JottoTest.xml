@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JottoTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-02-13T06:45:47.534Z" hostname="MacBook-Air.local" time="0.027">
+  <properties/>
+  <testcase name="showPlayedWords()" classname="JottoTest" time="0.006"/>
+  <testcase name="setCurrentWord()" classname="JottoTest" time="0.001"/>
+  <testcase name="showPlayerGuesses()" classname="JottoTest" time="0.001"/>
+  <testcase name="readWords()" classname="JottoTest" time="0.001"/>
+  <testcase name="showWordList()" classname="JottoTest" time="0.001"/>
+  <testcase name="pickWord()" classname="JottoTest" time="0.001"/>
+  <testcase name="getPlayedWords()" classname="JottoTest" time="0.0"/>
+  <testcase name="getLetterCount()" classname="JottoTest" time="0.0"/>
+  <testcase name="getCurrentWord()" classname="JottoTest" time="0.001"/>
+  <testcase name="score()" classname="JottoTest" time="0.001"/>
+  <testcase name="updateWordList()" classname="JottoTest" time="0.0"/>
+  <testcase name="playerGuessScores()" classname="JottoTest" time="0.001"/>
+  <testcase name="addPlayerGuess()" classname="JottoTest" time="0.001"/>
+  <testcase name="setFilename()" classname="JottoTest" time="0.001"/>
+  <testcase name="getFilename()" classname="JottoTest" time="0.0"/>
+  <testcase name="getPlayerGuesses()" classname="JottoTest" time="0.001"/>
+  <testcase name="getScore()" classname="JottoTest" time="0.0"/>
+  <testcase name="getWordList()" classname="JottoTest" time="0.001"/>
+  <system-out><![CDATA[DEBUG: grant
+No guesses yet
+Current player guesses:
+grant
+Checking oiled
+Checking grant
+Checking adieu
+Checking salet
+DEBUG: adieu
+DEBUG: grant
+Pickword test: grant
+DEBUG: oiled
+Pickword test: oiled
+DEBUG: salet
+Pickword test: salet
+You've guessed them all!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
